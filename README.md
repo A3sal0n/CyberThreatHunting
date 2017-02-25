@@ -21,4 +21,4 @@ A collection of resources for Threat Hunters
 
 
 ## Training
-- [Incident Response and Threat Hunting](https://www.sans.org/curricula/incident-response-and-threat-hunting)
+- [SANS Incident Response and Threat Hunting](https://www.sans.org/curricula/incident-response-and-threat-hunting)
