@@ -23,3 +23,4 @@ A collection of resources for Threat Hunters
 - [A Simple Hunting Maturity Model](http://detect-respond.blogspot.cz/2015/10/a-simple-hunting-maturity-model.html)
 - [A Framework for Cyber Threat Hunting](http://sqrrl.com/media/Framework-for-Threat-Hunting-Whitepaper.pdf)
 - [Seek Evil, and Ye Shall Find: A Guide to Cyber Threat Hunting Operations](https://digitalguardian.com/blog/seek-evil-and-ye-shall-find-guide-cyber-threat-hunting-operations)
+- [A Guide to Cyber Threat Hunting Operations](https://www.infosecurity-magazine.com/opinions/a-guide-to-cyber-threat-hunting/)
