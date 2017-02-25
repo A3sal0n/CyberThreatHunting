@@ -7,7 +7,7 @@ A collection of resources for Threat Hunters
 - [Must Read](#must-read)
 
 ### Hunting Use Cases
-- [The ThreatHunting Project](https://github.com/ThreatHuntingProject/ThreatHunting)
+- [The ThreatHunting Project](https://github.com/ThreatHuntingProject/ThreatHunting) - A great collections of hunts by @DavidJBianco
 - [Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs](http://www.brainfold.net/2016/08/threat-hunting-techniques-av-proxy-dns.html)
 
 ### Hunting Tools
