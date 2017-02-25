@@ -1,6 +1,11 @@
 # Cyber Threat Hunting
 A collection of resources for Threat Hunters
 
+## Sections
+- [Hunting Use Cases](#hunting-use-cases)
+- [Hunting Tools](#hunting-tools)
+- [Must Read](#must-read)
+
 ## Hunting Use Cases
 - [The ThreatHunting Project](https://github.com/ThreatHuntingProject/ThreatHunting)
 - [Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs](http://www.brainfold.net/2016/08/threat-hunting-techniques-av-proxy-dns.html)
@@ -18,7 +23,3 @@ A collection of resources for Threat Hunters
 - [A Simple Hunting Maturity Model](http://detect-respond.blogspot.cz/2015/10/a-simple-hunting-maturity-model.html)
 - [A Framework for Cyber Threat Hunting](http://sqrrl.com/media/Framework-for-Threat-Hunting-Whitepaper.pdf)
 - [Seek Evil, and Ye Shall Find: A Guide to Cyber Threat Hunting Operations](https://digitalguardian.com/blog/seek-evil-and-ye-shall-find-guide-cyber-threat-hunting-operations)
-
-
-## Training
-- [SANS Incident Response and Threat Hunting](https://www.sans.org/curricula/incident-response-and-threat-hunting)
