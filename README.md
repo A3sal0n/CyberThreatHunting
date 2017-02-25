@@ -6,16 +6,16 @@ A collection of resources for Threat Hunters
 - [Hunting Tools](#hunting-tools)
 - [Must Read](#must-read)
 
-## Hunting Use Cases
+### Hunting Use Cases
 - [The ThreatHunting Project](https://github.com/ThreatHuntingProject/ThreatHunting)
 - [Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs](http://www.brainfold.net/2016/08/threat-hunting-techniques-av-proxy-dns.html)
 
-## Hunting Tools
+### Hunting Tools
 - [Facebook's osquery](https://osquery.io/)
 - [Google's GRR](https://github.com/google/grr)
 - [Logging, searching and visualization with ELK](https://www.elastic.co/products/elasticsearch)
 
-## Must Read
+### Must Read
 - [The Who, What, Where, When, Why and How of Effective Threat Hunting](https://www.sans.org/reading-room/whitepapers/analyst/who-what-where-when-effective-threat-hunting-36785)
 - [Incident Response is Dead... Long Live Incident Response](https://sroberts.github.io/2015/04/14/ir-is-dead-long-live-ir/)
 - [Hunting, and Knowing What To Hunt For](http://windowsir.blogspot.cz/2015/06/hunting-and-knowing-what-to-huntnot-for.html)
