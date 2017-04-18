@@ -4,6 +4,7 @@ A collection of resources for Threat Hunters
 ## Sections
 - [Hunting Use Cases](#hunting-use-cases)
 - [Hunting Tools](#hunting-tools)
+- [Tutorials](#tutorials)
 - [Must Read](#must-read)
 
 ### Hunting Use Cases
