@@ -14,7 +14,10 @@ A collection of resources for Threat Hunters
 - [Facebook's osquery](https://osquery.io/)
 - [Google's GRR](https://github.com/google/grr)
 - [Logging, searching and visualization with ELK](https://www.elastic.co/products/elasticsearch)
+
+### Tutorials
 - [Threat Hunting with Bro IDS](https://www.jamesbower.com/threat-hunting-with-bro-ids/?utm_campaign=crowdfire&utm_content=crowdfire&utm_medium=social&utm_source=social#14225595-tw%231487983917678)
+- [Automating APT Scanning with Loki Scanner and Splunk](http://www.redblue.team/2017/04/automating-apt-scanning-with-loki.html?m=1)
 
 ### Must Read
 - [Threat Hunting:Open Season on the Adversary](https://www.sans.org/reading-room/whitepapers/analyst/threat-hunting-open-season-adversary-36882)
