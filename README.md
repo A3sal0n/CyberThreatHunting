@@ -10,6 +10,8 @@ A collection of resources for Threat Hunters
 ### Hunting Use Cases
 - [The ThreatHunting Project](https://github.com/ThreatHuntingProject/ThreatHunting) - A great collection of hunts by @DavidJBianco
 - [Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs](http://www.brainfold.net/2016/08/threat-hunting-techniques-av-proxy-dns.html)
+- [Cyber Threat hunting with Sqrrl (From Beaconing to Lateral Movement)](https://cyber-ir.com/2017/04/19/cyber-threat-hunting-with-sqrrl-from-beaconing-to-lateral-movement/amp/)
+- [The ThreatHunter-Playbook](https://github.com/VVard0g/ThreatHunter-Playbook) - Hunting by leveraging Sysmon and Windows Events logs
 
 ### Hunting Tools
 - [Facebook's osquery](https://osquery.io/)
