@@ -17,6 +17,10 @@ A collection of resources for Threat Hunters
 - [Facebook's osquery](https://osquery.io/)
 - [Google's GRR](https://github.com/google/grr)
 - [Logging, searching and visualization with ELK](https://www.elastic.co/products/elasticsearch)
+- [Back to Basics: Enhance Windows Security with Sysmon and Graylog](https://www.graylog.org/blog/83-back-to-basics-enhance-windows-security-with-sysmon-and-graylog)
+- [Building a Sysmon Dashboard with an ELK Stack](https://cyberwardog.blogspot.cz/2017/03/building-sysmon-dashboard-with-elk-stack.html)
+- [Advanced Sysmon configuration, Installer & Auto Updater with high-quality event tracing](https://github.com/ion-storm/sysmon-config)
+- [Advanced Threat detection Configurations for Graylog](https://github.com/ion-storm/Graylog_Sysmon)
 
 ### Tutorials
 - [Threat Hunting with Bro IDS](https://www.jamesbower.com/threat-hunting-with-bro-ids/?utm_campaign=crowdfire&utm_content=crowdfire&utm_medium=social&utm_source=social#14225595-tw%231487983917678)
