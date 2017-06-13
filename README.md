@@ -37,3 +37,4 @@ A collection of resources for Threat Hunters
 - [Seek Evil, and Ye Shall Find: A Guide to Cyber Threat Hunting Operations](https://digitalguardian.com/blog/seek-evil-and-ye-shall-find-guide-cyber-threat-hunting-operations)
 - [A Guide to Cyber Threat Hunting Operations](https://www.infosecurity-magazine.com/opinions/a-guide-to-cyber-threat-hunting/)
 - [Inside 3 top threat hunting tools](http://www.networkworld.com/article/3150473/security/threat-hunting-tools-could-be-a-security-game-changer.html#slide13) - High level overview of Sqrrl, Infocyte and EndGame
+- [True Threat Hunting: more than just threats and anomalies](http://www.baesystems.com/en/cybersecurity/blog/true-threat-hunting#) - Some valid thoughts on what's needed for an effective Threat Hunting program
