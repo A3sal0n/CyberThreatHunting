@@ -1,4 +1,5 @@
 #Beacon Detection via Intra-Request Time Deltas
+
 *Original data provided by the ThreatHunting Project, (https://github.com/DavidJBianco/ThreatHunting)*
 
 **Purpose**: Find regular HTTP beaconing behavior which may indicate malware C2

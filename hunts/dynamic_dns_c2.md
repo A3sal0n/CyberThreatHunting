@@ -1,4 +1,5 @@
 #C2 via Dynamic DNS 
+
 *Original data provided by the ThreatHunting Project, (https://github.com/DavidJBianco/ThreatHunting)*
 
 **Purpose**: Identify potential C2 activity
