@@ -30,7 +30,7 @@ A collection of resources for Threat Hunters
 ### Must Read
 - [Threat Hunting:Open Season on the Adversary](https://www.sans.org/reading-room/whitepapers/analyst/threat-hunting-open-season-adversary-36882)
 - [The Who, What, Where, When, Why and How of Effective Threat Hunting](https://www.sans.org/reading-room/whitepapers/analyst/who-what-where-when-effective-threat-hunting-36785)
-- [Incident Response is Dead... Long Live Incident Response](https://sroberts.github.io/2015/04/14/ir-is-dead-long-live-ir/)
+- [Incident Response is Dead... Long Live Incident Response](https://medium.com/@sroberts/incident-response-is-dead-long-live-incident-response-5ba1de664b95)
 - [Hunting, and Knowing What To Hunt For](http://windowsir.blogspot.cz/2015/06/hunting-and-knowing-what-to-huntnot-for.html)
 - [Cyber Hunting: 5 Tips To Bag Your Prey](http://www.darkreading.com/risk/cyber-hunting-5-tips-to-bag-your-prey/a/d-id/1319634?_mc=RSS_DR_EDT)
 - [A Simple Hunting Maturity Model](http://detect-respond.blogspot.cz/2015/10/a-simple-hunting-maturity-model.html)
