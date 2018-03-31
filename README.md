@@ -5,6 +5,7 @@ A collection of resources for Threat Hunters
 - [Hunting Tools](#hunting-tools)
 - [Resources](#resources)
 - [Must Read](#must-read)
+- [Custom Scripts](tools/README.md)
 
 ### Hunting Tools
 - [Facebook's osquery](https://osquery.io/)
