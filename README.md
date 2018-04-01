@@ -1,11 +1,11 @@
 # Cyber Threat Hunting
-A collection of resources for Threat Hunters
+A collection of tools and other resources for threat hunters.
 
 ## Sections
-- [Hunting Tools](#hunting-tools)
-- [Resources](#resources)
-- [Must Read](#must-read)
-- [Custom Scripts](tools/README.md)
+- [Hunting Tools](#hunting-tools) - Collection of open source and free tools for hunting
+- [Resources](#resources) - Useful resources to get started in Threat Hunting
+- [Must Read](#must-read) - Articles and blog posts covering different aspects of Threat Hunting
+- [Custom Scripts](tools/README.md) - Our own tools and scripts to support different types of hunts
 
 ### Hunting Tools
 - [Facebook's osquery](https://osquery.io/)
