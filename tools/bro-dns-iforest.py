@@ -79,25 +79,33 @@ def main(argv):
     startTime = datetime.now()
 
     print 'Starting...\n'
-
-    ifile = ''
+    
+    ifile = None
+    cont = None
 
     try:
-        opts, args = getopt.getopt(argv, "hi:", ["ifile=", ])
+        opts, args = getopt.getopt(argv, "hi:c:", ["ifile=", "cont=",])
     except getopt.GetoptError:
-        print 'bro-dns-ml-hunt.py -i <input Bro DNS file>'
+        print 'Check your input parameters'
+        print 'bro-dns-ml-hunt.py -i <input Bro DNS file> -c <contamination>'
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print 'bro-dns-ml-hunt.py -i <input Bro DNS file>'
+            print 'bro-dns-ml-hunt.py -i <input Bro DNS file> -c <contamination>'
             sys.exit()
         elif opt in ("-i", "--ifile"):
             ifile = arg
+        elif opt in ("-c", "--cont"):
+            cont = float(arg)
 
     if not ifile:
         print 'A Bro log file must be provided as input'
-        print 'bro-dns-ml-hunt.py -i <input Bro DNS file>'
+        print 'bro-dns-ml-hunt.py -i <input Bro DNS file> -c <contamination>'
         sys.exit(2)
+
+    if not cont:
+        print 'Using default contamination value: 0.1'
+        cont = 0.2
 
     rng = np.random.RandomState(42)
 
@@ -125,7 +133,7 @@ def main(argv):
         bro_target_matrix = to_matrix.fit_transform(bro_target_df)
 
         # Train using the Isolation Forest model
-        iForest = IsolationForest(max_samples=100, contamination=0.01, random_state=rng, verbose=False)
+        iForest = IsolationForest(max_samples=100, contamination=cont, random_state=rng, verbose=False)
         iForest.fit(bro_target_matrix)
 
         # Get predictions
