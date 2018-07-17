@@ -60,6 +60,8 @@ The Bro DNS log records must have json format (https://www.bro.org/sphinx/script
 
 #### Usage
 
-`bro-dns-iforest.py -i <Bro DNS file>`
+`bro-dns-iforest.py -i <Bro DNS file> -c <contamination>`
 
 The script saves the results in two different files: outliers.json and kmeans-clusters.json. The first file contains all the outlier events detected and the second the same events but clustered using the algorithm KMeans.
+
+The user can set the value for the [contamination](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) parameter which can have a direct impact on how many outliers the algorightm will return. In general with higher values of contamination more outliers will be returned. The default value is 0.1.
