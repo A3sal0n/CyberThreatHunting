@@ -16,6 +16,7 @@ A collection of tools and other resources for threat hunters.
 - [Advanced Sysmon configuration, Installer & Auto Updater with high-quality event tracing](https://github.com/ion-storm/sysmon-config)
 - [Advanced Threat detection Configurations for Graylog](https://github.com/ion-storm/Graylog_Sysmon)
 - [Elk + Osquery + Kolide Fleet = Love](https://jordanpotti.com/2018/02/16/elk-osquery-kolide-fleet-love/) - Hunting with ELK, Osquery and Kolide Fleet
+- [Social Mapper](https://github.com/SpiderLabs/social_mapper) - A Social Media Mapping Tool that correlates profiles via facial recognition by Jacob Wilkin(Greenwolf)
 
 ### Resources
 - [MITRE ATT&CK](https://attack.mitre.org/wiki/Main_Page) - A curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target.
