@@ -42,3 +42,26 @@ Sample output:
 `{"gooogle.com": {"google.com": 0.09090909361839294, "google.cm": 0.1818181872367859}}`
 
 `{"faceboook.com": {"facebook.com": 0.07692307978868484}}`
+
+### Hunting on Bro DNS logs using Isolation Forest
+
+This script allows detecting outliers in Bro DNS logs using the Isolation Forest algorithm as implemented in the Python library [scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). This method does not detect "evil" by default but it can help to identify rare events within a large number of DNS requests. Some of these rare events may be malicious in nature and could be spotted visually by analysts having a good knowledge of the environment they're defending.
+
+#### Requirements
+
+This code requires Python 2.7 and the libraries below.
+
+- bat (https://github.com/Kitware/bat)
+- pandas (https://pandas.pydata.org/)
+- sklearn (http://scikit-learn.org/stable/)
+- numpy (http://www.numpy.org/)
+
+The Bro DNS log records must have json format (https://www.bro.org/sphinx/scripts/policy/tuning/json-logs.bro.html)
+
+#### Usage
+
+`bro-dns-iforest.py -i <Bro DNS file> -c <contamination>`
+
+The script saves the results in two different files: outliers.json and kmeans-clusters.json. The first file contains all the outlier events detected and the second the same events but clustered using the algorithm KMeans.
+
+The user can set the value for the [contamination](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) parameter which can have a direct impact on how many outliers the algorightm will return. In general with higher values of contamination more outliers will be returned. The default value is 0.1.
