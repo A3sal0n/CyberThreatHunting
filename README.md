@@ -2,7 +2,7 @@
 A collection of tools and other resources for threat hunters.
 
 ## Sections
-- [Hunting Tools](#hunting-tools) - Collection of open source and free tools for hunting
+- [Hunting Tools](#hunting-tools) - A collection of our open source tools for hunting
 - [Resources](#resources) - Useful resources to get started in Threat Hunting
 - [Must Read](#must-read) - Articles and blog posts covering different aspects of Threat Hunting
 - [Custom Scripts](tools/README.md) - Our own tools and scripts to support different types of hunts
