@@ -4,10 +4,12 @@ A collection of tools and other resources for threat hunters.
 ## Sections
 - [Hunting Tools](#hunting-tools) - A collection of our open source tools for hunting
 - [Resources](#resources) - Useful resources to get started in Threat Hunting
+- [Hunting with AI](#hunting-with-ai) - Leverage the power of ChatGPT prompts for Threat Hunting
 - [Must Read](#must-read) - Articles and blog posts covering different aspects of Threat Hunting
 - [Custom Scripts](tools/README.md) - Our own tools and scripts to support different types of hunts
 
 ### Hunting Tools
+- [Velociraptor](https://docs.velociraptor.app/)
 - [Facebook's osquery](https://osquery.io/)
 - [Google's GRR](https://github.com/google/grr)
 - [Logging, searching and visualization with ELK](https://www.elastic.co/products/elasticsearch)
@@ -16,7 +18,11 @@ A collection of tools and other resources for threat hunters.
 - [Advanced Sysmon configuration, Installer & Auto Updater with high-quality event tracing](https://github.com/ion-storm/sysmon-config)
 - [Advanced Threat detection Configurations for Graylog](https://github.com/ion-storm/Graylog_Sysmon)
 - [Elk + Osquery + Kolide Fleet = Love](https://jordanpotti.com/2018/02/16/elk-osquery-kolide-fleet-love/) - Hunting with ELK, Osquery and Kolide Fleet
-- [Velociraptor](https://www.velocidex.com/)
+- [CyLR — Live Response Collection tool](https://github.com/orlikoski/CyLR)
+- [Unix-like Artifacts Collector](https://github.com/tclahr/uac)
+- [Kroll Artifact Parser And Extractor (KAPE)](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape)
+- [Chainsaw - Rapidly Search and Hunt through Windows Forensic Artefacts](https://github.com/WithSecureLabs/chainsaw)
+- [evtx-hunter - Python tool that generates a web report of interesting activity observed in EVTX files](https://github.com/NVISOsecurity/evtx-hunter)
 
 ### Resources
 - [MITRE ATT&CK](https://attack.mitre.org/wiki/Main_Page) - A curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target.
@@ -30,6 +36,13 @@ A collection of tools and other resources for threat hunters.
 - [Detecting Lateral Movement through Tracking Event Logs](https://www.jpcert.or.jp/english/pub/sr/20170612ac-ir_research_en.pdf)
 - [How to build a Threat Hunting platform using ELK Stack](https://www.peerlyst.com/posts/how-to-build-a-threat-hunting-platform-using-elk-stack-chiheb-chebbi?utm_source=LinkedIn&utm_medium=Application_Share&utm_content=peerlyst_post&utm_campaign=peerlyst_shared_post)
 - [Endpoint Detection of Remote Service Creation and PsExec](https://countercept.com/blog/endpoint-detection-of-remote-service-creation-and-psexec/) - Hunting for lateral movement with Event Tracing for Windows (ETW)
+
+### Hunting with AI
+- [10 ways to use ChatGPT for Threat Hunting](https://infosecwriteups.com/learn-10-ways-to-use-chatgpt-for-threat-hunting-right-now-9fab5507f3b8)
+- [ChatGPT for CTI Professionals](https://socradar.io/chatgpt-for-cti-professionals/)
+- [Complete ChatGPT Guide for DevSecOps: Top 20 Most Essential Prompts](https://levelup.gitconnected.com/complete-chatgpt-guide-for-devsecops-top-20-most-essential-prompts-ef21e0aa4830)
+- [ChatGPT Use Cases for CyberSecurity Folks](https://atrhein.medium.com/chatgpt-use-cases-for-cybersecurity-folks-c4ae83656b92)
+- [60 Chat GPT Prompts for Cyber Security by Experts](https://nextdoorsec.com/chat-gpt-prompts-for-cyber-security/)
 
 ### Must Read
 - [Threat Hunting:Open Season on the Adversary](https://www.sans.org/reading-room/whitepapers/analyst/threat-hunting-open-season-adversary-36882)
