@@ -9,7 +9,7 @@ pandas==0.23.4
 pathtools==0.1.2
 pkg-resources==0.0.0
 py4j==0.10.7
-pyarrow==0.11.1
+pyarrow==14.0.1
 pyspark==3.2.2
 python-dateutil==2.7.5
 pytz==2018.7
