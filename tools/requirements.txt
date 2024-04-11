@@ -3,7 +3,7 @@ bat==0.3.4
 certifi==2023.7.22
 chardet==3.0.4
 futures==3.2.0
-idna==2.7
+idna==3.7
 numpy==1.22.0
 pandas==0.23.4
 pathtools==0.1.2
